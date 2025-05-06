@@ -1,0 +1,23 @@
+services:
+  # ChromaDB server with embedded storage
+  chroma:
+    image: ghcr.io/chroma-core/chroma:latest
+    volumes:
+      - chroma_data:/chroma/chroma
+    ports:
+      - "8010:8000"  # Expose ChromaDB server on port 8010
+    networks:
+      - rag-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/heartbeat"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+networks:
+  rag-network:
+    driver: bridge
+
+volumes:
+  chroma_data:

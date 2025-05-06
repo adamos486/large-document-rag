@@ -1,0 +1,103 @@
+{
+  "balance_sheet": {
+    "assets": {
+      "current_assets": [
+        "cash_and_cash_equivalents",
+        "short_term_investments",
+        "accounts_receivable",
+        "inventory",
+        "prepaid_expenses",
+        "other_current_assets"
+      ],
+      "non_current_assets": [
+        "property_plant_equipment",
+        "goodwill",
+        "intangible_assets",
+        "long_term_investments",
+        "deferred_tax_assets",
+        "other_non_current_assets"
+      ]
+    },
+    "liabilities": {
+      "current_liabilities": [
+        "accounts_payable",
+        "short_term_debt",
+        "current_portion_of_long_term_debt",
+        "accrued_expenses",
+        "deferred_revenue",
+        "income_taxes_payable",
+        "other_current_liabilities"
+      ],
+      "non_current_liabilities": [
+        "long_term_debt",
+        "pension_liabilities",
+        "deferred_tax_liabilities",
+        "other_non_current_liabilities"
+      ]
+    },
+    "equity": [
+      "common_stock",
+      "preferred_stock",
+      "additional_paid_in_capital",
+      "retained_earnings",
+      "treasury_stock",
+      "accumulated_other_comprehensive_income",
+      "non_controlling_interest"
+    ]
+  },
+  "income_statement": [
+    "revenue",
+    "cost_of_goods_sold",
+    "gross_profit",
+    "operating_expenses",
+    "research_and_development",
+    "selling_general_and_administrative",
+    "depreciation_and_amortization",
+    "operating_income",
+    "non_operating_income",
+    "interest_expense",
+    "income_before_tax",
+    "income_tax_expense",
+    "net_income",
+    "earnings_per_share_basic",
+    "earnings_per_share_diluted",
+    "weighted_average_shares_outstanding_basic",
+    "weighted_average_shares_outstanding_diluted"
+  ],
+  "cash_flow_statement": {
+    "operating_activities": [
+      "net_income",
+      "depreciation_and_amortization",
+      "stock_based_compensation",
+      "changes_in_working_capital",
+      "accounts_receivable_change",
+      "inventory_change",
+      "accounts_payable_change",
+      "other_operating_activities",
+      "net_cash_from_operating_activities"
+    ],
+    "investing_activities": [
+      "capital_expenditures",
+      "acquisitions",
+      "purchases_of_investments",
+      "sales_maturities_of_investments",
+      "other_investing_activities",
+      "net_cash_from_investing_activities"
+    ],
+    "financing_activities": [
+      "debt_issuance",
+      "debt_repayment",
+      "common_stock_issued",
+      "common_stock_repurchased",
+      "dividends_paid",
+      "other_financing_activities",
+      "net_cash_from_financing_activities"
+    ],
+    "supplemental": [
+      "effect_of_forex_changes_on_cash",
+      "net_change_in_cash",
+      "cash_at_beginning_of_period",
+      "cash_at_end_of_period"
+    ]
+  }
+}
